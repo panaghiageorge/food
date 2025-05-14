@@ -1,0 +1,31 @@
+# .gitignore
+
+# For Mobile (React Native)
+# ========================
+node_modules/
+.expo/
+*.jsbundle
+*.map
+/android/
+*.iml
+/ios/
+ios/Pods/
+*.log
+*.tmp
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# For Backend (Node.js, PostgreSQL)
+# ================================
+node_modules/
+*.log
+.env
+.idea/
+.vscode/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/dist
+/build
